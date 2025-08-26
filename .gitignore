@@ -1,0 +1,56 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.env/
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# PyCharm / VSCode settings
+.idea/
+.vscode/
+*.code-workspace
+
+# MacOS / Linux / Windows system files
+.DS_Store
+Thumbs.db
+
+# Logs and debugging
+*.log
+*.out
+*.err
+
+# Model artifacts and experiment results
+*.pkl
+*.joblib
+*.h5
+*.ckpt
+*.pt
+*.pth
+
+# Optuna study files
+*.db
+*.sqlite3
+
+# YAML config backup or temporary files
+*.yaml~
+*.yml~
+
+# Output folders
+outputs/
+results/
+logs/
+artifacts/
+runs/
+checkpoints/
+catboost_info/
+
